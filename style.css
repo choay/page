@@ -1,0 +1,78 @@
+body {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    margin: 0px;
+    padding:0px;
+   
+  }
+.logo{
+    color: lawngreen;
+    margin-right:auto;
+}  
+li, a, button {
+    text-decoration: none;
+    font-weight:500;
+    font-size: 26px;
+    list-style: none;
+}  
+header{
+    display:flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:30px 10%;
+    height: 40px;
+    background-color: rgb(72, 95, 109);
+}
+.nav_links,a{
+    display: inline-block;
+    padding:0px 10px;
+    font-size:40px;
+    color:white;
+}
+.link{
+    color:white;
+    display:inline-block;
+}
+a:hover{
+    color:lawngreen;
+}
+button {
+    color:rgb(72, 95, 109) ;
+    background-color: lawngreen;
+    padding:5px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+
+}
+button:hover{
+    color:black;
+    border-color:white;
+}
+h1{
+    text-align: center;
+    margin:5px 10px;
+
+}
+p {
+    text-align: center;
+    margin:0px 10px;
+}
+#img{
+    text-align: center;
+    background-color:rgb(238, 238, 247);
+    padding-top:20px;
+    margin-top: 0px;
+}
+#titre{
+    text-align: center;
+}
+.bio{
+    color:black;
+}
+footer{
+    background-color:rgb(72, 95, 109) ;
+    margin: 0px;
+    padding:0px;
+}
